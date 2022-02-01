@@ -1,0 +1,945 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:20:1-91:12
+MERGED from [:react-native-push-notification] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:20:1-91:12
+MERGED from [:react-native-community_geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-background-timer] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-gesture-handler] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-maps] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-reanimated] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4538efb6bc0699013128ea52c9196539/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2c67e628ec5e10a6dc480e38352e91b8/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:20:1-85:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2b7e6ebaa515cd43f42fb356f0d1941c/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:16:1-24:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/83ef104dfb430f397d92e4759e916162/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8547c58d8a189afcab5540191afe7320/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee0a0f1df6ec82b39c6bd94672681bab/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/fbdc3e33c0cf4fb6618b3fcc8d105591/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c3b7b12f448628b281d0d62b884cad68/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3b198830d922c7c36b5728d232b5dfa2/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b504391aa72c1fccbfde5f9aecf364d/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3eb43dcc83336306d77ef63b3402a327/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/edab9a506dbd8c78a6f1a18fc4eb209e/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3e974e7e51555c82be5b9fd468966b2b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3653837072ca28c91f326ffc9a22e52c/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/025b7fa3ab5554e592d8ce5233bc7a13/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2570ee8cdf5a2a7fe062aa117d18a819/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/33fa28bb10cd4d05c9c7b76910e2f1d7/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/57896e3f8d3af1ea30640dfb96021293/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/420bad76d144494602cd19d31fe9bd87/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3114b5082c434347d506763565a0943d/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/e7202c2e47335c4d4b224db255144bff/firebase-encoders-json-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3d8e4bc7a6af7aacf11542b377d7496f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b95a670ae7bd376b7902e15855cd0ee3/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/35cad5169a4745c0bfde91156540bc0d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b3384283a73b276daf1e9a12cf250bb7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/90a42a2ce697149cad235e929844c219/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/24d6d583c434259890735095825ff497/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f1fdfdf03c30563a3eb92f6c5b5051ce/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a25b01144be0941df6bba7293d8c0f17/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/e9872f4e302f432d4ed640cfa6c58eb6/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a20a73fc01b18d3fde5e258f4cd5ad79/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/411bdbedc35f51d8e6b1c352c69abc9b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9aab56159b5d892e0145587101b1f3a4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/97914c6c2bf3a10c0dbc0cbbac018fe9/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d3986420b69bbcda2a26da93e8786bb5/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b7d3a1583ae97d0e70a1770a1993bbf1/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/21edf3c6b4f2eecf7b9eccd8e17daad5/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b9668bd4c5473f0298eda6562aec7b99/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/596fc679c0cd5d4e81c0bb73a34a2445/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/71dd278aed309c95a240fbf4151d1363/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcbbc49e5cb5bb2aee330b22c38faa7c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/fcf7d5609a86ac86db550c02db072902/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/55eda678a9c29214329b766e1ab02c74/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:2:1-18:12
+MERGED from [com.github.tony19:logback-android:1.1.1-9] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4ab75228dc5777c748d995f1c35bf034/logback-android-1.1.1-9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a647dade89bf9de664ec6549e1dcdcc9/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/70d5f323b00c011dcaedcc32c4b6abc5/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.tony19:apktool-lib:1.4.4-5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a384ecfc4b3c1ed986acbd81560f6fda/apktool-lib-1.4.4-5/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+	package
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:2:3-39
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:1-64:12
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-67
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-67
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-67
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-67
+MERGED from [:react-native-maps] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:28:5-67
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:28:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:34:5-79
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:34:5-79
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:34:5-79
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:34:5-79
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:32:5-79
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:7:5-68
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-68
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-68
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-68
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-68
+MERGED from [:react-native-background-timer] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-68
+MERGED from [:react-native-background-timer] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-68
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-68
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:8:6-86
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:8:23-83
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:10:5-80
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-81
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-81
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-81
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-81
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-81
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:10:22-78
+application
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:11:5-62:19
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:43:5-89:19
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:43:5-89:19
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:43:5-89:19
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:43:5-89:19
+MERGED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4538efb6bc0699013128ea52c9196539/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4538efb6bc0699013128ea52c9196539/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:41:5-83:19
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:41:5-83:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3653837072ca28c91f326ffc9a22e52c/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3653837072ca28c91f326ffc9a22e52c/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2570ee8cdf5a2a7fe062aa117d18a819/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2570ee8cdf5a2a7fe062aa117d18a819/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/55eda678a9c29214329b766e1ab02c74/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/55eda678a9c29214329b766e1ab02c74/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:11:5-16:19
+MERGED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:11:5-16:19
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:13:7-39
+	android:roundIcon
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:15:7-52
+	android:icon
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:14:7-41
+	android:allowBackup
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:16:7-34
+	android:theme
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:17:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:18:7-42
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:12:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:20:9-22:63
+	android:value
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:22:6-61
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:21:6-51
+uses-library#org.apache.http.legacy
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:23:8-86
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:23:60-84
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:23:22-59
+activity#com.mbesocialdistancingapp.MainActivity
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:25:7-35:18
+	android:label
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:27:9-41
+	android:launchMode
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:29:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:30:9-51
+	android:configChanges
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:28:9-86
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:26:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:31:9-34:25
+action#android.intent.action.MAIN
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:32:13-65
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:32:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:33:13-73
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:33:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:36:7-84
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:36:17-81
+meta-data#com.dieam.reactnativepushnotification.notification_channel_name
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:38:7-39:65
+	android:value
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:39:17-63
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:38:19-97
+meta-data#com.dieam.reactnativepushnotification.notification_channel_description
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:40:9-41:76
+	android:value
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:41:21-74
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:40:21-106
+meta-data#com.dieam.reactnativepushnotification.notification_color
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:43:9-44:54
+	android:resource
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:44:21-52
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:43:21-92
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:46:9-110
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:46:19-107
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:47:9-51:20
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:47:19-115
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:48:13-50:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:49:17-79
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:49:25-76
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:52:9-118
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:52:18-116
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:54:9-60:19
+	android:exported
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:55:13-107
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:57:13-59:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:58:17-78
+	android:name
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml:58:25-75
+uses-sdk
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-27:41
+MERGED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-27:41
+MERGED from [:react-native-push-notification] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-27:41
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-27:41
+MERGED from [:react-native-community_geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-timer] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-timer] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-maps] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4538efb6bc0699013128ea52c9196539/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4538efb6bc0699013128ea52c9196539/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2c67e628ec5e10a6dc480e38352e91b8/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2c67e628ec5e10a6dc480e38352e91b8/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-44
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2b7e6ebaa515cd43f42fb356f0d1941c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2b7e6ebaa515cd43f42fb356f0d1941c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/83ef104dfb430f397d92e4759e916162/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/83ef104dfb430f397d92e4759e916162/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8547c58d8a189afcab5540191afe7320/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8547c58d8a189afcab5540191afe7320/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee0a0f1df6ec82b39c6bd94672681bab/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee0a0f1df6ec82b39c6bd94672681bab/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/fbdc3e33c0cf4fb6618b3fcc8d105591/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/fbdc3e33c0cf4fb6618b3fcc8d105591/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c3b7b12f448628b281d0d62b884cad68/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c3b7b12f448628b281d0d62b884cad68/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3b198830d922c7c36b5728d232b5dfa2/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3b198830d922c7c36b5728d232b5dfa2/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b504391aa72c1fccbfde5f9aecf364d/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b504391aa72c1fccbfde5f9aecf364d/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3eb43dcc83336306d77ef63b3402a327/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3eb43dcc83336306d77ef63b3402a327/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/edab9a506dbd8c78a6f1a18fc4eb209e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/edab9a506dbd8c78a6f1a18fc4eb209e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3e974e7e51555c82be5b9fd468966b2b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3e974e7e51555c82be5b9fd468966b2b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3653837072ca28c91f326ffc9a22e52c/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3653837072ca28c91f326ffc9a22e52c/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/025b7fa3ab5554e592d8ce5233bc7a13/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/025b7fa3ab5554e592d8ce5233bc7a13/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2570ee8cdf5a2a7fe062aa117d18a819/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/2570ee8cdf5a2a7fe062aa117d18a819/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/33fa28bb10cd4d05c9c7b76910e2f1d7/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/33fa28bb10cd4d05c9c7b76910e2f1d7/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/57896e3f8d3af1ea30640dfb96021293/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/57896e3f8d3af1ea30640dfb96021293/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/420bad76d144494602cd19d31fe9bd87/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/420bad76d144494602cd19d31fe9bd87/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3114b5082c434347d506763565a0943d/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3114b5082c434347d506763565a0943d/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/e7202c2e47335c4d4b224db255144bff/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/e7202c2e47335c4d4b224db255144bff/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3d8e4bc7a6af7aacf11542b377d7496f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/3d8e4bc7a6af7aacf11542b377d7496f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b95a670ae7bd376b7902e15855cd0ee3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b95a670ae7bd376b7902e15855cd0ee3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/35cad5169a4745c0bfde91156540bc0d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/35cad5169a4745c0bfde91156540bc0d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b3384283a73b276daf1e9a12cf250bb7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b3384283a73b276daf1e9a12cf250bb7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/90a42a2ce697149cad235e929844c219/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/90a42a2ce697149cad235e929844c219/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/24d6d583c434259890735095825ff497/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/24d6d583c434259890735095825ff497/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f1fdfdf03c30563a3eb92f6c5b5051ce/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f1fdfdf03c30563a3eb92f6c5b5051ce/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a25b01144be0941df6bba7293d8c0f17/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a25b01144be0941df6bba7293d8c0f17/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/e9872f4e302f432d4ed640cfa6c58eb6/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/e9872f4e302f432d4ed640cfa6c58eb6/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a20a73fc01b18d3fde5e258f4cd5ad79/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a20a73fc01b18d3fde5e258f4cd5ad79/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/411bdbedc35f51d8e6b1c352c69abc9b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/411bdbedc35f51d8e6b1c352c69abc9b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9aab56159b5d892e0145587101b1f3a4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/9aab56159b5d892e0145587101b1f3a4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/97914c6c2bf3a10c0dbc0cbbac018fe9/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/97914c6c2bf3a10c0dbc0cbbac018fe9/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d3986420b69bbcda2a26da93e8786bb5/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/d3986420b69bbcda2a26da93e8786bb5/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b7d3a1583ae97d0e70a1770a1993bbf1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b7d3a1583ae97d0e70a1770a1993bbf1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/21edf3c6b4f2eecf7b9eccd8e17daad5/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/21edf3c6b4f2eecf7b9eccd8e17daad5/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b9668bd4c5473f0298eda6562aec7b99/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/b9668bd4c5473f0298eda6562aec7b99/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/596fc679c0cd5d4e81c0bb73a34a2445/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/596fc679c0cd5d4e81c0bb73a34a2445/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/71dd278aed309c95a240fbf4151d1363/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/71dd278aed309c95a240fbf4151d1363/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcbbc49e5cb5bb2aee330b22c38faa7c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcbbc49e5cb5bb2aee330b22c38faa7c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/fcf7d5609a86ac86db550c02db072902/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/fcf7d5609a86ac86db550c02db072902/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/55eda678a9c29214329b766e1ab02c74/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/55eda678a9c29214329b766e1ab02c74/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:logback-android:1.1.1-9] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4ab75228dc5777c748d995f1c35bf034/logback-android-1.1.1-9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:logback-android:1.1.1-9] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/4ab75228dc5777c748d995f1c35bf034/logback-android-1.1.1-9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a647dade89bf9de664ec6549e1dcdcc9/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a647dade89bf9de664ec6549e1dcdcc9/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/70d5f323b00c011dcaedcc32c4b6abc5/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/70d5f323b00c011dcaedcc32c4b6abc5/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:apktool-lib:1.4.4-5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a384ecfc4b3c1ed986acbd81560f6fda/apktool-lib-1.4.4-5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:apktool-lib:1.4.4-5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a384ecfc4b3c1ed986acbd81560f6fda/apktool-lib-1.4.4-5/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mbeadmin/Downloads/Covid/covidapp/android/app/src/main/AndroidManifest.xml
+uses-permission#android.hardware.location
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-65
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-65
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-65
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-65
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:29:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:32:5-79
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:32:5-79
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:32:5-79
+MERGED from [:react-native-community_netinfo] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-community_netinfo] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-79
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:32:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-81
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-81
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-81
+MERGED from [:react-native-maps] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-81
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:33:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-89
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-89
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-89
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-89
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-89
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:35:22-86
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:36:5-94
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:36:5-94
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:36:5-94
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:34:5-94
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:34:5-94
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:36:22-91
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:38:5-77
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:38:5-77
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:38:5-77
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:36:5-77
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:36:5-77
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:38:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:39:5-78
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:39:5-78
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:39:5-78
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-78
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-78
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:39:22-75
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:40:5-80
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:40:5-80
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:40:5-80
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:38:5-80
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:38:5-80
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:40:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:41:5-77
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:41:5-77
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:41:5-77
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:39:5-77
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:39:5-77
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:41:22-74
+service#com.marianhello.bgloc.sync.SyncService
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:44:9-55:19
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:44:9-55:19
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:44:9-55:19
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:42:9-53:19
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:42:9-53:19
+	android:process
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:47:13-36
+	android:exported
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:45:13-66
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:48:13-50:29
+action#android.content.SyncAdapter
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:49:17-70
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:49:25-67
+meta-data#android.content.SyncAdapter
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-54:55
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-54:55
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-54:55
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-52:55
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-52:55
+	android:resource
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:54:17-52
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:53:17-59
+service#com.marianhello.bgloc.sync.AuthenticatorService
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:56:9-64:19
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:56:9-64:19
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:56:9-64:19
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:54:9-62:19
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:54:9-62:19
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:56:18-80
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-59:29
+action#android.accounts.AccountAuthenticator
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:58:17-80
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:58:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-63:57
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-63:57
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-63:57
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-61:57
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-61:57
+	android:resource
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:63:17-54
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:62:17-69
+provider#com.marianhello.bgloc.data.provider.LocationContentProvider
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:66:9-70:39
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:66:9-70:39
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:66:9-70:39
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:64:9-68:39
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:64:9-68:39
+	android:authorities
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:68:13-75
+	android:syncable
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-87
+service#com.marianhello.bgloc.service.LocationServiceImpl
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:72:9-75:40
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:72:9-75:40
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:72:9-75:40
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:70:9-73:40
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:70:9-73:40
+	android:enabled
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:74:13-35
+	android:exported
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:73:13-77
+service#com.marianhello.bgloc.react.headless.HeadlessService
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:76:9-79:40
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:76:9-79:40
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:76:9-79:40
+	android:enabled
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:78:13-35
+	android:exported
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:77:13-80
+receiver#com.marianhello.bgloc.BootCompletedReceiver
+ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:81:9-88:20
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:81:9-88:20
+MERGED from [:mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:81:9-88:20
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:75:9-82:20
+MERGED from [:@mauron85_react-native-background-geolocation-common] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/common/build/intermediates/library_manifest/release/AndroidManifest.xml:75:9-82:20
+	android:enabled
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:83:13-35
+	android:exported
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:84:13-36
+	android:name
+		ADDED from [:@mauron85_react-native-background-geolocation] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/release/AndroidManifest.xml:82:13-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:react-native-community_netinfo] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-73
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/mbeadmin/Downloads/Covid/covidapp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/f09edd6e59587eec502a25bc4ae1dfa6/jetified-play-services-iid-9.8.0/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ecf0643e06d1e28461f33c8540812637/jetified-play-services-gcm-9.8.0/AndroidManifest.xml:20:22-79
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:37:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:36:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/a6d24298aa798db037a6b2c10a16c31b/jetified-firebase-messaging-20.1.6/AndroidManifest.xml:39:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/52835a740e61ebe641975a4b03f8afa9/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/48818aac4137fd74d2fe608d16f22bb6/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/5c94176b3b8e3a81840b4a9d473bc920/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/dcb0caa0b7590c92c93c5bf3cc09a745/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.6] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/ac39685f57e851d0f50f335ae7d82bc0/firebase-iid-20.1.6/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.2.2] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/8b21c7393015c1efc9b41799dba21c6c/firebase-installations-16.2.2/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/521e585744bfeeb5549c99f877446b49/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/55eda678a9c29214329b766e1ab02c74/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/55eda678a9c29214329b766e1ab02c74/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c62624d1c5dca70c163952c242c69f92/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+activity#com.intentfilter.androidpermissions.PermissionsActivity
+ADDED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:12:9-15:59
+	android:excludeFromRecents
+		ADDED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:14:13-46
+	android:theme
+		ADDED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from [com.intentfilter:android-permissions:0.1.7] /Users/mbeadmin/.gradle/caches/transforms-2/files-2.1/c27a42f79a0d5106d603b210843cfe86/jetified-android-permissions-0.1.7/AndroidManifest.xml:13:13-83

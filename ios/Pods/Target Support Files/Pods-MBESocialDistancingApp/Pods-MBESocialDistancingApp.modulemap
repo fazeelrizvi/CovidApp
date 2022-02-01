@@ -1,0 +1,6 @@
+module Pods_MBESocialDistancingApp {
+  umbrella header "Pods-MBESocialDistancingApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
